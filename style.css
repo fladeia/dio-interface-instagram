@@ -204,8 +204,16 @@ button {
   right: 62px;
 }
 
+/* .image {
+  display: none;
+} */
+
 .image {
   display: none;
+}
+
+.show {
+  display: block;
 }
 
 .store-icon img {
