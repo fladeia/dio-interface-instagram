@@ -89,9 +89,4 @@ imageThree()
 setTimeout(imageThree, 3000)
 imageFour()
 
-// imageOne()
-// imageTwo()
-// setTimeout(imageTwo, 3000)
-// imageThree()
-// setTimeout(imageThree, 3000)
-// imageFour()
+

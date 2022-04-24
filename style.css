@@ -40,10 +40,6 @@ ul {
   justify-content: center;
 }
 
-.section {
-  /* flex: 1; */
-}
-
 .illustration-area {
   width: 469px;
   position: relative;
@@ -264,5 +260,22 @@ button {
 @media (max-width: 875px) {
   .illustration-area {
     display: none;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .login,
+  .sign-up {
+    background-color: var(--background);
+    border: none;
+  }
+
+  .main {
+    margin: 0 auto;
+  }
+
+  .login-container {
+    justify-content: space-between;
   }
 }
