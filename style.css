@@ -95,6 +95,13 @@ ul {
   height: 20%;
 }
 
+.images {
+  width: 250px;
+  position: absolute;
+  top: 26px;
+  right: 62px;
+}
+
 .logo {
   margin: 3rem 0 1.5rem;
 }
@@ -104,7 +111,6 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* gap: 4px; */
 }
 
 .form label,
@@ -193,25 +199,6 @@ button {
   font-weight: 600;
 }
 
-.images {
-  width: 250px;
-  position: absolute;
-  top: 26px;
-  right: 62px;
-}
-
-/* .image {
-  display: none;
-} */
-
-.image {
-  display: none;
-}
-
-.show {
-  display: block;
-}
-
 .store-icon img {
   height: 40px;
 }
@@ -254,7 +241,6 @@ button {
   border: none;
   font-size: 12px;
   color: var(--grey);
-  /* margin-top: 1rem; */
 }
 
 @media (max-width: 875px) {
