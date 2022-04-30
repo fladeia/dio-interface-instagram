@@ -11,6 +11,9 @@ let i = 0
 setInterval(() => {
   if(i < array.length) {
     image.setAttribute('src', array[i++])
+    image.addEventListener("load", () => {
+      image.setAttribute('style', 'opacity: 0.5') 
+    })
   } else {
     i = 0
     image.setAttribute('src', array[i++])
