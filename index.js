@@ -22,7 +22,7 @@ function enableBtn() {
 function disableBtn() {
   btnSubmit.setAttribute('disabled', 'true')
   btnSubmit.style.backgroundColor = "var(--blue-1)"
-  btnSubmit.style.cursor = "nono"
+  btnSubmit.style.cursor = "auto"
 }
 
 loginInput.addEventListener('input', (e) => {
@@ -37,7 +37,6 @@ loginInput.addEventListener('input', (e) => {
     enableBtn()
   }
 })
-
 
 passwordInput.addEventListener('input', (e) => {
   if(e.target.value.length > 3) {
