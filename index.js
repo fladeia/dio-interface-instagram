@@ -2,6 +2,7 @@ const image = document.querySelector('.image')
 const loginInput = document.querySelector('#login')
 const passwordInput = document.querySelector('#password')
 const btnSubmit = document.querySelector('.btnSubmit')
+const showPassword = document.querySelector('.showPassword')
 
 const array = [
   'https://www.instagram.com/static/images/homepage/screenshots/screenshot2.png/4d62acb667fb.png', 
@@ -17,12 +18,14 @@ function enableBtn() {
   btnSubmit.removeAttribute('disabled')
   btnSubmit.style.backgroundColor = "var(--blue-2)"
   btnSubmit.style.cursor = "pointer"
+  showPassword.setAttribute('style', 'visibility: visible')
 }
 
 function disableBtn() {
   btnSubmit.setAttribute('disabled', 'true')
   btnSubmit.style.backgroundColor = "var(--blue-1)"
   btnSubmit.style.cursor = "auto"
+  showPassword.setAttribute('style', 'visibility: hidden')
 }
 
 loginInput.addEventListener('input', (e) => {
@@ -49,6 +52,11 @@ passwordInput.addEventListener('input', (e) => {
   if(login && password) {
     enableBtn()
   }
+})
+
+showPassword.addEventListener('click', () => {
+  showPassword.innerHTML === 'Mostrar' ?  showPassword.innerHTML = 'Ocultar' : showPassword.innerHTML = 'Mostrar'
+  passwordInput.type === 'password' ?  passwordInput.type = 'text' : passwordInput.type = 'password'
 })
 
 let i = 0

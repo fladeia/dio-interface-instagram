@@ -91,6 +91,8 @@ ul {
   border: 1px solid var(--gray-2);
 }
 
+
+
 .logo {
   margin: 2.5rem 0 1.5rem;
 }
@@ -125,6 +127,19 @@ button {
 
 .form label {
   margin-bottom: 4px;
+}
+
+.form .password {
+  position: relative;
+}
+
+.form .showPassword {
+  visibility: hidden;
+  position: absolute;
+  right: 16px;
+  top: 8px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .form button {
