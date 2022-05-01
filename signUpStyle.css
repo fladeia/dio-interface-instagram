@@ -24,7 +24,10 @@ a {
 
 .facebook {
   width: 100%;
+}
 
+.facebook a {
+  width: 100%;
 }
 
 .facebook .btn-facebook {
@@ -35,6 +38,7 @@ a {
   background-color: var(--blue-2);
   font-weight: 600;
   color: var(--white);
+  cursor: pointer;
 }
 
 .facebook-login {
