@@ -1,0 +1,59 @@
+.main {
+  height: 100%;
+  margin: 2rem auto 2rem;
+}
+
+a {
+  font-weight: 500;
+}
+
+.logo {
+  margin: 2.5rem 0 0.4rem;
+}
+
+.login {
+  height: 90%;
+}
+
+.login h2 {
+  margin-inline: 1.8rem;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--gray-3);
+}
+
+.facebook {
+  width: 100%;
+
+}
+
+.facebook .btn-facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--blue-2);
+  font-weight: 600;
+  color: var(--white);
+}
+
+.facebook-login {
+  background-position: 16px 101px;
+}
+
+.form button {
+  margin-top: 8px;
+}
+
+.facebook-pass-recovery {
+  margin-block: 1rem 3rem;
+  color: var(--gray-3);
+}
+
+.facebook-pass-recovery a {
+  color: var(--gray-3);
+}
+
+.sign-up {
+  height: 100px;
+}

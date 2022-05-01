@@ -7,19 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Instagram Clone</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="signUpStyle.css">
 </head>
 
 <body>
   <div class="container">
     <main class="main">
-      <section class="illustration-area">
-        <div class="frame">
-          <div class="images">
-            <img src="https://www.instagram.com/static/images/homepage/screenshots/screenshot1.png/fdfe239b7c9f.png"
-              alt="Instragram" class="image">
-          </div>
-        </div>
-      </section>
       <section class="login-area">
         <div class="login-container">
           <div class="login">
@@ -27,29 +20,40 @@
               <img src="https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png"
                 alt="Istagram Logo">
             </div>
-            <form class="form">
-              <label for="login">
-                <input type="text" name="login" id="login" placeholder="Telefone, nome de usuário ou email">
-              </label>
-              <label for="password" class="password">
-                <input type="password" name="password" id="password" placeholder="Senha">
-                <span class="showPassword">Mostrar</span>
-              </label>
-              <button type="submit" class="btnSubmit" disabled>Entrar</button>
-            </form>
+            <h2>Cadastre-se para ver fotos e vídeos dos seus amigos.</h2>
+            <div class="facebook">
+              <button class="facebook btn-facebook"><span class="facebook-login"></span>Entrar com o Facebook</button>
+            </div>
             <div class="or-content">
               <div class="or"></div>
               <span>OU</span>
               <div class="or"></div>
             </div>
-            <div class="facebook">
-              <span class="facebook-login"></span>
-              <p class="facebook-p">Entrar com o Facebook</p>
-            </div>
-            <p class="facebook-pass-recovery">Esqueceu a senha?</p>
+            <form class="form">
+              <label for="login">
+                <input type="text" name="login" id="login" placeholder="Número de celular ou email">
+              </label>
+              <label for="name">
+                <input type="text" name="name" id="name" placeholder="Nome completo">
+              </label>
+              <label for="username">
+                <input type="text" name="username" id="username" placeholder="Nome de usuário">
+              </label>
+              <label for="password" class="password">
+                <input type="password" name="password" id="password" placeholder="Senha">
+                <span class="showPassword">Mostrar</span>
+              </label>
+              <button type="submit" class="btnSubmit" disabled>Cadastre-se</button>
+            </form>
+            <p class="facebook-pass-recovery">Ao se cadastrar, você concorda com nossos <a
+                href="https://help.instagram.com/581066165581870" target="_blank">Termos</a>, <a
+                href="https://help.instagram.com/519522125107875/?maybe_redirect_pol=0" target="_blank"> Política de
+                Dados</a> e
+              <a href="https://help.instagram.com/1896641480634370?ref=ig" target="_blank"> Política de Cookies.</a>
+            </p>
           </div>
           <div class="sign-up">
-            <p>Não tem uma conta? <span><a href="/signUp.html">Cadastre-se</a></span></p>
+            <p>Já tem uma conta? <span><a href="/">Conecte-se</a></span></p>
           </div>
           <div class="getApp">
             <p>Obtenha o aplicativo</p>
@@ -83,11 +87,6 @@
         <li>Hashtags</li>
         <li>Localizações</li>
         <li>Instagram Lite</li>
-        <li>Dança</li>
-        <li>Comida e Bebida</li>
-        <li>Casa e jardim</li>
-        <li>Música</li>
-        <li>Artes visuais</li>
       </ul>
       <div class="footer-footer">
         <select name="language" id="language">

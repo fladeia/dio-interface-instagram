@@ -23,6 +23,10 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   min-height: 100vh;
   background-color: var(--gray-1);
@@ -91,8 +95,6 @@ ul {
   border: 1px solid var(--gray-2);
 }
 
-
-
 .logo {
   margin: 2.5rem 0 1.5rem;
 }
@@ -121,8 +123,10 @@ button {
 
 .form input {
   padding: 10px 8px;
+  font-size: 11px;
   background-color: rgb(250, 250, 250);
   outline: 0;
+  color: var(--gray-3);
 }
 
 .form label {
@@ -208,9 +212,13 @@ button {
   font-size: 14px;
 }
 
-.sign-up span {
+/* .sign-up span {
   color: var(--blue-2);
+} */
+
+.sign-up a {
   font-weight: 600;
+  color: var(--blue-2);
 }
 
 .store-icon img {
