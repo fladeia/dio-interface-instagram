@@ -5,10 +5,10 @@ const btnSubmit = document.querySelector('.btnSubmit')
 const showPassword = document.querySelector('.showPassword')
 
 const array = [
-  'https://www.instagram.com/static/images/homepage/screenshots/screenshot2.png/4d62acb667fb.png', 
-  'https://www.instagram.com/static/images/homepage/screenshots/screenshot3.png/94edb770accf.png', 
-  'https://www.instagram.com/static/images/homepage/screenshots/screenshot4.png/a4fd825e3d49.png',
-  'https://www.instagram.com/static/images/homepage/screenshots/screenshot1.png/fdfe239b7c9f.png', 
+  './assets/images/illustration2.png', 
+  './assets/images/illustration3.png', 
+  './assets/images/illustration4.png',
+  './assets/images/illustration1.png', 
 ]
 
 let login = false
