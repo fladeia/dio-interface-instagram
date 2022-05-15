@@ -78,5 +78,5 @@ passwordInput.addEventListener('input', (e) => {
 
 showPassword.addEventListener('click', () => {
   showPassword.innerHTML === 'Mostrar' ?  showPassword.innerHTML = 'Ocultar' : showPassword.innerHTML = 'Mostrar'
-  passwordInput.type === 'password' ?  passwordInput.type = 'text' : passwordInput.type = 'password'
+  // passwordInput.type === 'password' ?  passwordInput.type = 'text' : passwordInput.type = 'password'
 })
