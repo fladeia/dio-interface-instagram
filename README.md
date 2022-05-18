@@ -5,7 +5,7 @@
 </h1>
 
 <h3 align="center">
-  <a href="https://profound-kitten-87b386.netlify.app/">Acessar a demonstração</a>
+  <a href="https://profound-kitten-87b386.netlify.app/" target="_blank">Acessar a demonstração</a>
 </h3>
 
 ## 🎫 Sobre
